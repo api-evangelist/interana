@@ -1,7 +1,17 @@
 aid: interana
 name: Interana
-description: Interana is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Interana was an event-based behavioral analytics platform for interactively
+  querying large-scale event data (clickstream, product usage, and time-series
+  data) at full resolution. Founded around 2013 in Redwood City, California by
+  former Facebook engineers, it was used at scale by companies including
+  Microsoft Bing. The company's team and technology were acquired by Twitter in
+  March 2020; the standalone product was spun out and continued as Scuba
+  Analytics (scuba.io), and the interana.com domain now redirects to its
+  successor lineage. This API Evangelist profile is retained as a historical /
+  defunct company record — there is no live public API surface, developer
+  portal, or hosted documentation remaining. The only surviving first-party
+  developer surface is the open-source Interana GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/interana/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,49 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: Twitter
+x-acquired-date: '2020-03'
+x-successor: Scuba Analytics (scuba.io) → Behavure (behavure.ai)
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://avatars.githubusercontent.com/u/5075408?s=200&v=4
 tags:
 - Company
+- Analytics
+- Behavioral Analytics
+- Event Analytics
+- Big Data
+- Time Series
+- Defunct
+- Acquired
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/Interana
+- type: Packages
+  url: packages/interana-packages.yml
+- type: SDKs
+  url: packages/interana-packages.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

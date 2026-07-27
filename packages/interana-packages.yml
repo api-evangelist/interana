@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/Interana
+notes: >-
+  Interana is defunct (team/technology acquired by Twitter, March 2020; product
+  spun out as Scuba Analytics). No client libraries are published to any public
+  package registry — npm, PyPI (interana / interana-sdk both 404), Maven Central,
+  NuGet, pkg.go.dev, RubyGems, Packagist, and crates.io return no first-party
+  Interana packages. The only surviving first-party surface is the open-source
+  Interana GitHub organization, whose relevant repositories are recorded below
+  from source. All are unmaintained (last activity 2019).
+packages:
+- language: python
+  registry: github
+  name: interana-sdk
+  url: https://github.com/Interana/interana-sdk
+  official: true
+  status: unmaintained
+  note: First-party Python SDK repository. Source-only; never published to PyPI. Last pushed 2019-10-03.
+- language: python
+  registry: github
+  name: provision_tools
+  url: https://github.com/Interana/provision_tools
+  official: true
+  status: unmaintained
+  note: First-party client tools for provisioning Interana accounts on supported environments.
+- language: scala
+  registry: github
+  name: eventsim
+  url: https://github.com/Interana/eventsim
+  official: true
+  status: unmaintained
+  note: >-
+    First-party event-data simulator (546 stars) that generates a stream of
+    pseudo-random events for testing/demos. A tool rather than a client SDK.
