@@ -64,10 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Interana was an event-based behavioral analytics platform for interactively querying large-scale event data (clickstream, product usage, time-series) at full resolution. Founded around 2013 in Redwood City, California by former Facebook engineers, it was used at scale by companies including Microsoft Bing.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: defunct.** The team and technology were acquired by Twitter in March 2020. The standalone product was spun out and continued as Scuba Analytics (scuba.io); the `interana.com` domain now redirects through that successor lineage (currently to behavure.ai). There is no live public API, developer portal, or hosted documentation remaining.
+Interana was an event-based behavioral analytics platform for interactively querying large-scale event data (clickstream, product usage, and time-series data) at full resolution. Founded around 2013 in Redwood City, California by former Facebook engineers, it was used at scale by companies including Microsoft Bing. The company's team and technology were acquired by Twitter in March 2020; the standalone product was spun out and continued as Scuba Analytics (scuba.io), and the interana.com domain now redirects to its successor lineage. This API Evangelist profile is retained as a historical / defunct company record — there is no live public API surface, developer portal, or hosted documentation remaining. The only surviving first-party developer surface is the open-source Interana GitHub organization.
 
-Surviving first-party developer surface: the open-source [Interana GitHub organization](https://github.com/Interana) (eventsim, interana-sdk, provision_tools — all unmaintained since 2019).
+**Areas:** Company · Analytics · Behavioral Analytics · Event Analytics · Big Data · Time Series · Defunct · Acquired
 
-Backed by: a16z
+## Interana on APIs.io (historical record)
+
+Everything profiled for Interana is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/interana/](https://apis.io/providers/interana/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [GitHub](https://github.com/Interana)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Interana: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/interana/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
